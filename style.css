@@ -17,7 +17,7 @@
 .textoVerde
 {
   /* text-decoration-color: green; */
-  color: green;
+  color: rgb(157, 247, 84);
 }
 
 .textoGris
@@ -104,7 +104,7 @@
 .fondoAzul
 {
   background-color: rgb(8, 52, 63);
-  height: 95px;
+  height: 75px;
 }
 
 .achicar80
@@ -150,4 +150,47 @@
 .fondoGris
 {
   background-color: rgb(49, 44, 44) !important;
+}
+
+/* Ahora Estilos de Compra Ticket */
+
+.flexConf /*Del menú centro texto Conferencia sin el logo*/
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 1.4em;
+}
+
+.ticketFlex
+{
+  display: flex;
+  justify-content:space-between;
+}
+
+.cajaTicket
+{
+  border-style: solid;
+  border-width: 0.2em;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 32.8%;
+  height: 13em;
+}
+
+.ticketEntrada
+{
+  width: 49.5%;
+  /* text-align: right; */
+}
+
+.cajaTotal
+{
+  background-color: #bce4f7;
+  height: 3em;
+  color: rgba(12, 60, 165, 0.986);
 }
